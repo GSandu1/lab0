@@ -1,4 +1,4 @@
-y#all: hello.o help.o
+#all: hello.o help.o
 #	gcc -o all hello.o help.o
 #
 #hello.o : hello.c help.h
