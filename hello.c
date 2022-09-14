@@ -1,6 +1,19 @@
 #include <stdio.h>
-int main()
+#include "help.h"
+
+void  main()
 {
+char n;
+
   printf ("Hello World!\n");
-  return 0;
+  printf("Type h to invoke help");
+  scanf("%c",&n);
+  printf("\n");
+
+if (n=='h')
+{
+help();
+}
+
+
 }
